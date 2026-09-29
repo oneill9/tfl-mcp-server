@@ -35,6 +35,8 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - name: Add deployment marker
+        run: printf '%s\n' "$GITHUB_SHA" > "docs/deployment-${GITHUB_SHA}.txt"
       - name: Build and test documentation
         run: |
           mkdocs build --strict
@@ -53,8 +55,8 @@ jobs:
         run: |
           test "$(curl --silent --show-error --fail \
             --retry 30 --retry-delay 2 --retry-all-errors \
-            "https://oneill9.github.io/tfl-mcp-server/b4214842a2958d971df6f1a1c660f154.txt")" \
-            = "b4214842a2958d971df6f1a1c660f154"
+            "https://oneill9.github.io/tfl-mcp-server/deployment-${GITHUB_SHA}.txt")" \
+            = "$GITHUB_SHA"
           curl --silent --show-error --fail-with-body \
             --request POST "https://api.indexnow.org/indexnow" \
             --header "Content-Type: application/json; charset=utf-8" \
