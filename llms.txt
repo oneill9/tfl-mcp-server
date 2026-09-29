@@ -1,0 +1,19 @@
+# TfL MCP Server
+
+> A community Model Context Protocol server that gives AI clients access to Transport for London data through six read-only tools.
+
+This site is documentation, not a hosted MCP endpoint. The project is not affiliated with or endorsed by Transport for London. Version 2 requires Node.js 22 or later.
+
+## Project reference
+
+- [TfL MCP Server reference](https://oneill9.github.io/tfl-mcp-server/llms.md): Installation, tool inputs, transport options and limitations in Markdown.
+- [Documentation homepage](https://oneill9.github.io/tfl-mcp-server/): Project overview and documentation navigation.
+- [Installation guide](https://raw.githubusercontent.com/oneill9/tfl-mcp-server/main/docs/installation.md): MCPB, npm, source and container setup.
+- [API key guide](https://raw.githubusercontent.com/oneill9/tfl-mcp-server/main/docs/api-keys.md): Optional TfL credentials and configuration.
+- [Migration to v2](https://raw.githubusercontent.com/oneill9/tfl-mcp-server/main/docs/migration-v2.md): Changes from the retired Java implementation.
+
+## Optional
+
+- [Tool implementations and schemas](https://github.com/oneill9/tfl-mcp-server/blob/main/node/src/index.ts): Current accepted inputs and registered tools.
+- [Source repository](https://github.com/oneill9/tfl-mcp-server): README, tests, releases and issue tracker.
+- [TfL Unified API](https://api.tfl.gov.uk/): Upstream transport data and API documentation.

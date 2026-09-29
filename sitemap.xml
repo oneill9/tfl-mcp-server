@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://oneill9.github.io/tfl-mcp-server/</loc>
+         <lastmod>2026-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://oneill9.github.io/tfl-mcp-server/api-keys/</loc>
+         <lastmod>2026-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://oneill9.github.io/tfl-mcp-server/installation/</loc>
+         <lastmod>2026-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://oneill9.github.io/tfl-mcp-server/migration-v2/</loc>
+         <lastmod>2026-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://oneill9.github.io/tfl-mcp-server/submission/</loc>
+         <lastmod>2026-09-29</lastmod>
+    </url>
+    <url>
+         <loc>https://oneill9.github.io/tfl-mcp-server/tools/</loc>
+         <lastmod>2026-09-29</lastmod>
+    </url>
+</urlset>
