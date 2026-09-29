@@ -34,15 +34,15 @@
     "build:mcpb": "bash ../scripts/build-mcpb.sh"
   },
   "dependencies": {
-    "@modelcontextprotocol/node": "2.0.0",
-    "@modelcontextprotocol/server": "2.0.0",
-    "zod": "^4.5.4"
+    "@modelcontextprotocol/node": "2.1.0",
+    "@modelcontextprotocol/server": "2.1.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@modelcontextprotocol/client": "2.0.0",
+    "@modelcontextprotocol/client": "2.1.0",
     "@modelcontextprotocol/conformance": "0.2.0-alpha.11",
     "@types/node": "^26",
-    "tsx": "4.23.13",
+    "tsx": "4.23.15",
     "typescript": "^7",
     "vitest": "^5"
   }
